@@ -33,6 +33,7 @@ repositories {
 
 
 dependencies {
+	compile ('org.json:json:20160212')
 	compile('org.springframework.boot:spring-boot-starter-aop')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-websocket')
